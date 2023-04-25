@@ -11,7 +11,7 @@ const userSchema = mongoose.Schema({
     unique: true,
   },
   events: {
-    type: String,
+    type: Array,
     required: true,
   },
   mobile: {

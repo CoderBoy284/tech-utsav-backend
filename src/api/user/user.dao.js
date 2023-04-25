@@ -8,7 +8,7 @@ const buildSaveuserJson = (props) => {
   json.degree = props.degree || "";
   json.course = props.course || "";
   json.college = props.college || "";
-  json.events = props.events;
+  json.events = props.events || [];
   json.mobile = props.mobile;
   return json;
 };
